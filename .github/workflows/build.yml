@@ -36,9 +36,5 @@ jobs:
       - name: Build
         run: msbuild Auth0.OidcClient.All.sln -t:rebuild -verbosity:diag -property:Configuration=Release
 
-      - name: Tests
-        uses: microsoft/vstest-action@v1.0.0
-        with:
-          testAssembly: '**\bin\**\*UnitTests.dll'
-          searchFolder: '.\'
-          runInParallel: false
+      - name: Test 
+        run: dotnet test **\bin\**\*UnitTests.dll        
