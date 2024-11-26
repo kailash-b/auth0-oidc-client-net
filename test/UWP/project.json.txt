@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "IdentityModel.OidcClient": "5.2.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12"
