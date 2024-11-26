@@ -12,7 +12,6 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <DefineConstants>$(DefineConstants);</DefineConstants>    
     <LangVersion>default</LangVersion>    
-    <UserSecretsId>e271153b-0df2-4197-83a5-30cd3e05c2e3</UserSecretsId>
   </PropertyGroup>
    <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
     <DebugType>portable</DebugType>
