@@ -13,7 +13,7 @@
     <DefineConstants>$(DefineConstants);</DefineConstants>    
     <LangVersion>default</LangVersion>
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.0</SupportedOSPlatformVersion>
-    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>   
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
   </PropertyGroup>
    <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
     <DebugType>portable</DebugType>

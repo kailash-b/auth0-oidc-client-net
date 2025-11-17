@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: windows-2022
+    env:
+      DOTNET_VERSION: '9.0.200'
     steps:
       - uses: actions/checkout@v5
 
@@ -22,7 +24,7 @@ jobs:
       - name: Install .NET
         uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: '9.0.200'
+          dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: workload update version
         run: dotnet workload update
