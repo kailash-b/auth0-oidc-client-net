@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk/0.2.0-alpha4">
   <PropertyGroup>
-    <TargetFrameworks>xamarin.ios10;net8.0-ios;net9.0-ios;net10.0-ios</TargetFrameworks>
+    <!-- Xamarin.iOS (xamarin.ios10) requires Mac with Xamarin installed, exclude on Windows with modern .NET -->
+    <TargetFrameworks Condition="'$(OS)' != 'Windows_NT'">xamarin.ios10;net8.0-ios;net9.0-ios;net10.0-ios</TargetFrameworks>
+    <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">net8.0-ios;net9.0-ios;net10.0-ios</TargetFrameworks>
     <RootNamespace>Auth0.OidcClient</RootNamespace>
     <AssemblyName>Auth0.OidcClient</AssemblyName>
     <AssemblyTitle>Auth0.OidcClient.iOS</AssemblyTitle>
@@ -27,7 +29,7 @@
   <ItemGroup>
     <Compile Include="ActivityMediator.cs" />
     <Compile Include="AutoSelectBrowser.cs" />
-    <Compile Include="IOSBrowserBase.cs" />
+    <Compile Include="iOSBrowserBase.cs" />
     <Compile Include="Auth0Client.cs" />
     <Compile Include="ASWebAuthenticationSessionBrowser.cs" />
     <Compile Include="ASWebAuthenticationSessionOptions.cs" />
