@@ -48,20 +48,6 @@
         <dependency id="Auth0.OidcClient.Core" version="4.2.0" />
         <dependency id="Duende.IdentityModel.OidcClient" version="6.0.1" />
       </group>
-      <group targetFramework="net8.0-android33.0.95">
-        <dependency id="Auth0.OidcClient.Core" version="4.2.0" />
-        <dependency id="Duende.IdentityModel.OidcClient" version="6.0.1" />
-      </group>
-      <group targetFramework="net8.0-ios16.4.7142">
-        <dependency id="Auth0.OidcClient.Core" version="4.2.0" />
-        <dependency id="Duende.IdentityModel.OidcClient" version="6.0.1" />
-        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" />
-      </group>
-      <group targetFramework="net8.0-maccatalyst16.4.7142">
-        <dependency id="Auth0.OidcClient.Core" version="4.2.0" />
-        <dependency id="Duende.IdentityModel.OidcClient" version="6.0.1" />
-        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" />
-      </group>
       <group targetFramework="net8.0-windows10.0.19041.0">
         <dependency id="Auth0.OidcClient.Core" version="4.2.0" />
         <dependency id="Duende.IdentityModel.OidcClient" version="6.0.1" />
@@ -95,12 +81,6 @@
   <files>
     <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0\Auth0.OidcClient.dll" target="lib\net8.0" />
     <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0\Auth0.OidcClient.xml" target="lib\net8.0" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-android\Auth0.OidcClient.dll" target="lib\net8.0-android33.0.95" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-android\Auth0.OidcClient.xml" target="lib\net8.0-android33.0.95" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-ios\Auth0.OidcClient.dll" target="lib\net8.0-ios16.4.7142" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-ios\Auth0.OidcClient.xml" target="lib\net8.0-ios16.4.7142" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-maccatalyst\Auth0.OidcClient.dll" target="lib\net8.0-maccatalyst16.4.7142" />
-    <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-maccatalyst\Auth0.OidcClient.xml" target="lib\net8.0-maccatalyst16.4.7142" />
     <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-windows10.0.19041.0\Auth0.OidcClient.dll" target="lib\net8.0-windows10.0.19041.0" />
     <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-windows10.0.19041.0\Auth0.OidcClient.xml" target="lib\net8.0-windows10.0.19041.0" />
     <file src="..\src\Auth0.OidcClient.MAUI\bin\Release\net8.0-windows10.0.19041.0\Auth0.OidcClient.MAUI.Platforms.Windows.dll" target="lib\net8.0-windows10.0.19041" />

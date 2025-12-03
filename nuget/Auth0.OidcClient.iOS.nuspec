@@ -137,10 +137,10 @@
   <files>
     <file src="../src/Auth0.OidcClient.iOS/bin/Release/xamarin.ios10/Auth0.OidcClient.dll" target="lib\Xamarin.iOS10" />
     <file src="../src/Auth0.OidcClient.iOS/bin/Release/xamarin.ios10/Auth0.OidcClient.xml" target="lib\Xamarin.iOS10" />
-    <file src="../src/Auth0.OidcClient.iOS/bin/Release/net8.0-ios/Auth0.OidcClient.dll" target="lib\net8.0-ios16.4.7142" />
-    <file src="../src/Auth0.OidcClient.iOS/bin/Release/net8.0-ios/Auth0.OidcClient.xml" target="lib\net8.0-ios16.4.7142" />
     <file src="../src/Auth0.OidcClient.iOS/bin/Release/net9.0-ios/Auth0.OidcClient.dll" target="lib\net9.0-ios16.4.7142" />
     <file src="../src/Auth0.OidcClient.iOS/bin/Release/net9.0-ios/Auth0.OidcClient.xml" target="lib\net9.0-ios16.4.7142" />
+    <file src="../src/Auth0.OidcClient.iOS/bin/Release/net10.0-ios/Auth0.OidcClient.dll" target="lib\net10.0-ios16.4.7142" />
+    <file src="../src/Auth0.OidcClient.iOS/bin/Release/net10.0-ios/Auth0.OidcClient.xml" target="lib\net10.0-ios16.4.7142" />
     <file src="..\build\Auth0Icon.png" />
   </files>
 </package>

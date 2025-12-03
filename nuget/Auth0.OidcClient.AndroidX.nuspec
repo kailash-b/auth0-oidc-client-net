@@ -90,10 +90,10 @@
   <files>
     <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\monoandroid12.0\Auth0.OidcClient.dll" target="lib\MonoAndroid12" />
     <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\monoandroid12.0\Auth0.OidcClient.xml" target="lib\MonoAndroid12" />
-    <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net8.0-android\Auth0.OidcClient.dll" target="lib\net8.0-android33.0.95" />
-    <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net8.0-android\Auth0.OidcClient.xml" target="lib\net8.0-android33.0.95" />
     <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net9.0-android\Auth0.OidcClient.dll" target="lib\net9.0-android33.0.95" />
     <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net9.0-android\Auth0.OidcClient.xml" target="lib\net9.0-android33.0.95" />
+    <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net10.0-android\Auth0.OidcClient.dll" target="lib\net10.0-android33.0.95" />
+    <file src="..\src\Auth0.OidcClient.AndroidX\bin\Release\net10.0-android\Auth0.OidcClient.xml" target="lib\net10.0-android33.0.95" />
     <file src="..\build\Auth0Icon.png" />
   </files>
 </package>
